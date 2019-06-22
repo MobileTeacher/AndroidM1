@@ -20,4 +20,30 @@ val pergunta2 = Pergunta(
                 "de retorno média do mercado, assumindo riscos elevados")
 )
 
-val perguntas = listOf(pergunta1, pergunta2)
+val pergunta3 = Pergunta(
+    "Considerando seus rendimentos regulares, qual a porcentagem você\n" +
+            " pretende reservar para aplicações \u001Fnanceiras?",
+    listOf("Preservação do capital para não perder valor ao longo do tempo,\n" +
+            "assumindo baixos riscos de perdas",
+        "Aumento gradual do capital ao longo do tempo, assumindo riscos\n" +
+                "moderados",
+        "Aumento do capital acima da taxa de retorno média do mercado, mesmo\n" +
+                "que isso implique assumir riscos de perdas elevadas")
+)
+
+val pergunta4 = Pergunta(
+    "Considerando seus rendimentos regulares, qual a porcentagem você\n" +
+            " pretende reservar para aplicações \u001Fnanceiras?",
+    listOf("Preservação do capital para não perder valor ao longo do tempo,\n" +
+            "assumindo baixos riscos de perdas",
+        "Aumento gradual do capital ao longo do tempo, assumindo riscos\n" +
+                "moderados",
+        "Aumento do capital acima da taxa de retorno média do mercado, mesmo\n" +
+                "que isso implique assumir riscos de perdas elevadas",
+        "Preservação do capital para não perder valor ao longo do tempo,\n" +
+                "assumindo baixos riscos de perdas",
+        "Aumento gradual do capital ao longo do tempo, assumindo riscos\n" +
+                "moderados")
+)
+
+val perguntas = listOf(pergunta1, pergunta3, pergunta2, pergunta4)
